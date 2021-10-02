@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 def estimate_coef(x, y):
-	# number of observations/points
+	
 	n = np.size(x)
 
 	
@@ -20,7 +20,7 @@ def estimate_coef(x, y):
 	return (b_0, b_1)
 
 def plot_regression_line(x, y, b):
-	# plotting the actual points as scatter plot
+	
 	plt.scatter(x, y, color = "m",
 			marker = "o", s = 30)
 
